@@ -5,7 +5,6 @@
 #ifndef SHELL_BROWSER_UI_WEBUI_ACCESSIBILITY_UI_H_
 #define SHELL_BROWSER_UI_WEBUI_ACCESSIBILITY_UI_H_
 
-#include "base/macros.h"
 #include "chrome/browser/accessibility/accessibility_ui.h"
 #include "content/public/browser/web_ui_controller.h"
 #include "content/public/browser/web_ui_data_source.h"

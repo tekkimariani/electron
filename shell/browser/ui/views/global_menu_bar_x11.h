@@ -8,7 +8,6 @@
 #include <string>
 
 #include "base/compiler_specific.h"
-#include "base/macros.h"
 #include "shell/browser/ui/electron_menu_model.h"
 #include "ui/base/glib/glib_signal.h"
 #include "ui/gfx/native_widget_types.h"

@@ -5,7 +5,6 @@
 #ifndef SHELL_COMMON_API_OBJECT_LIFE_MONITOR_H_
 #define SHELL_COMMON_API_OBJECT_LIFE_MONITOR_H_
 
-#include "base/macros.h"
 #include "base/memory/weak_ptr.h"
 #include "v8/include/v8.h"
 

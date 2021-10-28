@@ -6,7 +6,6 @@
 #define SHELL_BROWSER_UI_GTK_APP_INDICATOR_ICON_MENU_H_
 
 #include "base/callback.h"
-#include "base/macros.h"
 #include "ui/base/glib/glib_signal.h"
 
 typedef struct _GtkMenu GtkMenu;

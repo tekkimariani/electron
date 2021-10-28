@@ -7,7 +7,6 @@
 
 #include <string>
 
-#include "base/macros.h"
 #include "extensions/browser/api/runtime/runtime_api_delegate.h"
 
 namespace content {

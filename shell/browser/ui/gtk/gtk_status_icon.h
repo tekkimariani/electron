@@ -7,7 +7,6 @@
 
 #include <memory>
 
-#include "base/macros.h"
 #include "ui/base/glib/glib_integers.h"
 #include "ui/base/glib/glib_signal.h"
 #include "ui/views/linux_ui/status_icon_linux.h"

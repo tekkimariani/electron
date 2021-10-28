@@ -7,7 +7,6 @@
 
 #include <string>
 
-#include "base/macros.h"
 #include "components/prefs/pref_member.h"
 
 class PrefRegistrySimple;

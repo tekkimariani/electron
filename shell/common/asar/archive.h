@@ -12,7 +12,6 @@
 
 #include "base/files/file.h"
 #include "base/files/file_path.h"
-#include "base/macros.h"
 #include "base/synchronization/lock.h"
 #include "third_party/abseil-cpp/absl/types/optional.h"
 

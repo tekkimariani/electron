@@ -9,7 +9,6 @@
 
 #include <vector>
 
-#include "base/macros.h"
 #include "shell/common/gin_converters/guid_converter.h"
 #include "third_party/abseil-cpp/absl/types/optional.h"
 
