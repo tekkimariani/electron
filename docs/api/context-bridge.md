@@ -105,10 +105,10 @@ has been included below for completeness:
 | `Error` | Complex | ✅ | ✅ | Errors that are thrown are also copied, this can result in the message and stack trace of the error changing slightly due to being thrown in a different context |
 | `Promise` | Complex | ✅ | ✅ | Promises are only proxied if they are the return value or exact parameter.  Promises nested in arrays or objects will be dropped. |
 | `Function` | Complex | ✅ | ✅ | Prototype modifications are dropped.  Sending classes or constructors will not work. |
-| [Cloneable Types](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm) | Simple | ✅ | ✅ | See the linked document on cloneable types |
+| [Cloneable Types](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm) | Simple | ✅ | ✅ | See the linked document on [cloneable types](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm). |
 | `Element` | Complex | ✅ | ✅ | Prototype modifications are dropped.  Sending custom elements will not work. |
 | `Blob` | Complex | ✅ | ✅ | N/A |
-| `Symbol` | N/A | ❌ | ❌ | Symbols cannot be copied across contexts so they are dropped |
+| `Symbol` | N/A | ❌ | ❌ | Symbols cannot be copied across contexts so they are dropped. |
 
 If the type you care about is not in the above table, it is probably not supported.
 
